@@ -18,6 +18,10 @@ export class ExpressaoIdiomaticaPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
+  goExpressao(): void {
+this.navCtrl.push("ExpressaoIdiomaticaPage");
+}
+
   ionViewDidLoad() {
     console.log('ionViewDidLoad ExpressaoIdiomaticaPage');
   }

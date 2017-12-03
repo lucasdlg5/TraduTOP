@@ -18,6 +18,11 @@ export class PhrasalVerbsPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
+  goPhrasal(): void {
+this.navCtrl.push("PhrasalVerbsPage");
+}
+
+
   ionViewDidLoad() {
     console.log('ionViewDidLoad PhrasalVerbsPage');
   }

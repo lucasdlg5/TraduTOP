@@ -18,6 +18,10 @@ export class DitadoPopularPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
+  goExpressao(): void {
+this.navCtrl.push("DitadoPopularPage");
+}
+
   ionViewDidLoad() {
     console.log('ionViewDidLoad DitadoPopularPage');
   }

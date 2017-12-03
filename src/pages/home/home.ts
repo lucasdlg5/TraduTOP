@@ -19,4 +19,20 @@ export class HomePage {
   goToList(): void {
     this.navCtrl.push('EventListPage');
   }
+
+  goPhrasal(): void {
+    this.navCtrl.push ('PhrasalVerbsPage')
+  }
+
+  goExpressao(): void {
+    this.navCtrl.push ('ExpressaoIdiomaticaPage')
+  }
+
+  goDitado(): void {
+    this.navCtrl.push ('DitadoPopularPage')
+  }
+
+  goGirias(): void {
+    this.navCtrl.push ('GiriasPage')
+  }
 }

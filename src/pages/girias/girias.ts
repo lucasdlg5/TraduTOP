@@ -18,6 +18,10 @@ export class GiriasPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
+  goGirias(): void {
+this.navCtrl.push("GiriasPage");
+}
+
   ionViewDidLoad() {
     console.log('ionViewDidLoad GiriasPage');
   }
