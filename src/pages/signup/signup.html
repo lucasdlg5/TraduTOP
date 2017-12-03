@@ -7,7 +7,7 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Signup</ion-title>
+    <ion-title>Cadastre-se</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -17,28 +17,28 @@
   <form [formGroup]="signupForm" (submit)="signupUser()" novalidate>
     <ion-item>
       <ion-label stacked>Email</ion-label>
-      <ion-input formControlName="email" type="email" placeholder="Your email address"
+      <ion-input formControlName="email" type="email" placeholder="Seu e-mail"
         [class.invalid]="!signupForm.controls.email.valid && blur">
       </ion-input>
     </ion-item>
     <ion-item class="error-message" *ngIf="!signupForm.controls.email.valid
     && signupForm.controls.email.dirty">
-      <p>Please enter a valid email.</p>
+      <p>Entre com um endereçode e-mail válido.</p>
     </ion-item>
 
     <ion-item>
-      <ion-label stacked>Password</ion-label>
-      <ion-input formControlName="password" type="password" placeholder="Your password"
+      <ion-label stacked>Senha</ion-label>
+      <ion-input formControlName="password" type="password" placeholder="Sua Senha"
         [class.invalid]="!signupForm.controls.password.valid && blur">
       </ion-input>
     </ion-item>
     <ion-item class="error-message" *ngIf="!signupForm.controls.password.valid  &&
     signupForm.controls.password.dirty">
-      <p>Your password needs more than 6 characters.</p>
+      <p>Sua senha precisa conter mais de 6 caracteres.</p>
     </ion-item>
 
     <button ion-button block type="submit" [disabled]="!signupForm.valid">
-      Create an Account
+      Criar conta
     </button>
   </form>
 </ion-content>
