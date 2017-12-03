@@ -3,7 +3,7 @@ import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import firebase from 'firebase';
-import { firebaseConfig } from './credentials';
+//import { firebaseConfig } from './credentials';
 
 import { HomePage } from '../pages/home/home';
 @Component({
@@ -17,7 +17,21 @@ export class MyApp {
     statusBar: StatusBar,
     splashScreen: SplashScreen
   ) {
-    firebase.initializeApp(firebaseConfig);
+
+    //INICIO METODO TESTE DE CONEXÃO COM O FIREBASE
+    var teste = {
+    apiKey: "AIzaSyBSl9mu7w3rFu3VekSZKUkeiXvDv5xB0dU",
+    authDomain: "tradutop-kls.firebaseapp.com",
+    databaseURL: "https://tradutop-kls.firebaseio.com",
+    projectId: "tradutop-kls",
+    storageBucket: "tradutop-kls.appspot.com",
+    messagingSenderId: "685943658523"
+
+  }
+    firebase.initializeApp(teste);
+    //TERMINO METODO TESTE DE CONEXÃO COM O FIREBASE
+
+    //firebase.initializeApp(firebaseConfig);
 
     const unsubscribe = firebase.auth().onAuthStateChanged(user => {
       if (!user) {
