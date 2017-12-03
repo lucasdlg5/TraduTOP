@@ -1,6 +1,6 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Login</ion-title>
+    <ion-title>Login TraduTOP</ion-title>
   </ion-navbar>
 </ion-header>
 
@@ -8,36 +8,36 @@
   <form [formGroup]="loginForm" (submit)="loginUser()" novalidate>
     <ion-item>
       <ion-label stacked>Email</ion-label>
-      <ion-input formControlName="email" type="email" placeholder="Your email address"
+      <ion-input formControlName="email" type="email" placeholder="Insira seu e-mail."
         [class.invalid]="!loginForm.controls.email.valid && blur">
       </ion-input>
     </ion-item>
     <ion-item class="error-message" *ngIf="!loginForm.controls.email.valid &&
      loginForm.controls.email.dirty">
-      <p>Please enter a valid email address.</p>
+      <p>Entre com um endereço de email que esteja cadastrado.</p>
     </ion-item>
 
     <ion-item>
       <ion-label stacked>Password</ion-label>
-      <ion-input formControlName="password" type="password" placeholder="Your password"
+      <ion-input formControlName="password" type="password" placeholder="Sua Senha"
         [class.invalid]="!loginForm.controls.password.valid && blur">
       </ion-input>
     </ion-item>
     <ion-item class="error-message" *ngIf="!loginForm.controls.password.valid
     && loginForm.controls.password.dirty">
-      <p>Your password needs more than 6 characters.</p>
+      <p>Sua senha deve conter mais do que 6 caracteres.</p>
     </ion-item>
 
     <button ion-button block type="submit" [disabled]="!loginForm.valid">
-      Log In
+      Entrar
     </button>
   </form>
 
   <button ion-button block clear (click)="goToSignup()">
-    Create a new account
+    Não tem uma conta? Crie uma agora! :)
   </button>
 
   <button ion-button block clear (click)="goToResetPassword()">
-    I forgot my password :(
+    Perdi minha senha Juliana!! Ninguem sai!! :(
   </button>
 </ion-content>
