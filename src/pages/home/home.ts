@@ -20,6 +20,10 @@ export class HomePage {
     this.navCtrl.push('EventListPage');
   }
 
+  goGirias(): void {
+    this.navCtrl.push ('GiriasPage')
+  }
+
   goPhrasal(): void {
     this.navCtrl.push ('PhrasalVerbsPage')
   }
@@ -32,7 +36,5 @@ export class HomePage {
     this.navCtrl.push ('DitadoPopularPage')
   }
 
-  goGirias(): void {
-    this.navCtrl.push ('GiriasPage')
-  }
+
 }
