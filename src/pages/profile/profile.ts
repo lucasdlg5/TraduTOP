@@ -39,23 +39,23 @@ export class ProfilePage {
 
   updateName(): void {
     const alert: Alert = this.alertCtrl.create({
-      message: 'Your first name & last name',
+      message: 'Seu Nome e Sobrenome',
       inputs: [
         {
           name: 'firstName',
-          placeholder: 'Your first name',
+          placeholder: 'Nome',
           value: this.userProfile.firstName
         },
         {
           name: 'lastName',
-          placeholder: 'Your last name',
+          placeholder: 'Sobrenome',
           value: this.userProfile.lastName
         }
       ],
       buttons: [
-        { text: 'Cancel' },
+        { text: 'Cancelar' },
         {
-          text: 'Save',
+          text: 'Salvar!',
           handler: data => {
             this.profileProvider.updateName(data.firstName, data.lastName);
           }
@@ -98,13 +98,13 @@ export class ProfilePage {
   updatePassword(): void {
     let alert: Alert = this.alertCtrl.create({
       inputs: [
-        { name: 'newPassword', placeholder: 'New password', type: 'password' },
-        { name: 'oldPassword', placeholder: 'Old password', type: 'password' }
+        { name: 'newPassword', placeholder: 'Nova Senha', type: 'password' },
+        { name: 'oldPassword', placeholder: 'Senha Antiga', type: 'password' }
       ],
       buttons: [
-        { text: 'Cancel' },
+        { text: 'Cancelar' },
         {
-          text: 'Save',
+          text: 'Salvar!',
           handler: data => {
             this.profileProvider.updatePassword(
               data.newPassword,
