@@ -22,12 +22,12 @@
     </ion-item>
   </ion-list>
 
-  <ion-card *ngFor="let expressao of expressaosItems">
+  <ion-card *ngFor="let expressao of expressaoItems">
     <ion-card-header>
     <b>  {{expressao.titulo}}</b>
     </ion-card-header>
     <ion-card-content>
-        {{expressao.traducaoTitulo}}
+        Tradução Livre: {{expressao.traducaoTitulo}}
     </ion-card-content>
     <ion-card-header>
     <b>  Significado</b>
@@ -42,7 +42,7 @@
       {{expressao.exemplo}}
     </ion-card-content>
     <ion-card-content>
-    {{expressao.exemploTrad}}
+    Tradução: {{expressao.exemploTraducao}}
     </ion-card-content>
   </ion-card>
 
