@@ -12,38 +12,38 @@
 
 </ion-header>
 
-
 <ion-content padding>
 
   <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
   <ion-list>
-    <ion-item *ngFor="let item of items">
-      {{ item }}
+    <ion-item *ngFor="let giria of girias">
+      {{ giria }}
     </ion-item>
   </ion-list>
 
-  <ion-card>
+  <ion-card *ngFor="let giria of giriasItems">
     <ion-card-header>
-      All mouth and no trousers
+      {{giria.titulo}}
     </ion-card-header>
     <ion-card-content>
-      Toda a boca e sem calças.
+      {{giria.traducaoTitulo}}
     </ion-card-content>
     <ion-card-header>
       Significado
     </ion-card-header>
     <ion-card-content>
-      Todas as conversas, sem ação.
+    {{giria.descricao}}
     </ion-card-content>
     <ion-card-header>
       Exemplo
     </ion-card-header>
     <ion-card-content>
-      Todas as Dont listen to him. Hes all mouth and no trousers, sem ação.
+      {{giria.exemplo}}
     </ion-card-content>
     <ion-card-content>
-      Não o escute. Ele é toda boca e sem calças.
+    {{giria.exemploTrad}}
     </ion-card-content>
   </ion-card>
+
 
 </ion-content>

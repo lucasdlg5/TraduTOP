@@ -1,4 +1,4 @@
-<ion-card>
+<ion-card *ngFor="let post of posts">
   <ion-card-header>
     {{giria.titulo}}
   </ion-card-header>
@@ -21,8 +21,8 @@
   {{giria.exemploTrad}}
   </ion-card-content>
 </ion-card>
-
-XXXXXXXX{
+{
+"XXXXXXXX": [{
   "id_XXXXX":"",
   "titulo": "",
   "traducaoTitulo": "",
@@ -30,52 +30,152 @@ XXXXXXXX{
   "exemplo": "",
   "exemploTraducao": "",
   "dificuldade" : ""
+}]
 }
-
 --------------------------------
-
-giria{
-  "id_giria":"1",
-  "titulo": "All mouth and no trousers",
-  "traducaoTitulo": "Toda a boca e sem calças.",
-  "descricao": "Todas as conversas, sem ação.",
-  "exemplo": "Todas as Dont listen to him. Hes all mouth and no trousers, sem ação.",
-  "exemploTraducao": "Não o escute. Ele é toda boca e sem calças.",
-  "dificuldade" : "2"
+{
+	"giria": [{
+		"id_giria": "1",
+		"titulo": "All mouth and no trousers",
+		"traducaoTitulo": "Toda a boca e sem calças.",
+		"descricao": "Todas as conversas, sem ação.",
+		"exemplo": "Todas as Dont listen to him. Hes all mouth and no trousers, sem ação.",
+		"exemploTraducao": "Não o escute. Ele é toda boca e sem calças.",
+		"dificuldade": "2"
+	}]
 }
-
 ----------------------------------
-
-phrasal_verb{
-  "id_phrasal":"1",
-  "titulo": "Give up",
-  "traducaoTitulo": "Desistir.",
-  "descricao": "Desistir",
-  "exemplo": "I want to Give Up.",
-  "exemploTraducao": "Eu quero desistir.",
-  "dificuldade" : "2"
+{
+	"phrasal_verb": [{
+		"id_phrasal": "1",
+		"titulo": "Give up",
+		"traducaoTitulo": "Desistir.",
+		"descricao": "Desistir",
+		"exemplo": "I want to Give Up.",
+		"exemploTraducao": "Eu quero desistir.",
+		"dificuldade": "2"
+	}]
 }
 
 ---------------------------------------
+{
+	"ditado_popular": [{
+		"id_ditado": "1",
+		"titulo": "Put the horses before the cars",
+		"traducaoTitulo": "Coloque os cavalos antes dos carros",
+		"descricao": "Nao se precipitar",
+		"exemplo": "Put the horses before the cars",
+		"exemploTraducao": "Coloque os cavalos antes dos carros",
+		"dificuldade": "3"
+	}]
+}
+--------------------------
+{
+	"expressao_idiomatica": [{
+		"id_expressao": "1",
+		"titulo": "The best of both worlds",
+		"traducaoTitulo": "O melhor de dois mundos",
+		"descricao": "O melhor de duas oportunidades diferentes ao mesmo tempo",
+		"exemplo": "By working part-time and looking after her kids two days a week she managed to get the best of both worlds",
+		"exemploTraducao": "Trabalhando meio período e cuidando dos filhos duas vezes por semana, ela conseguiu ter o melhor dos dois mundos",
+		"dificuldade": "3"
+	}]
+}
+------------- TODOS JUNTOS -------------
 
-ditado_popular{
-  "id_ditado":"1",
-  "titulo": "Put the horses before the cars",
-  "traducaoTitulo": "Coloque os cavalos antes dos carros",
-  "descricao": "Nao se precipitar",
-  "exemplo": "Put the horses before the cars",
-  "exemploTraducao": "Coloque os cavalos antes dos carros",
-  "dificuldade" : "3"
+{
+	"giria": [{
+		"id_giria": "1",
+		"titulo": "All mouth and no trousers",
+		"traducaoTitulo": "Toda a boca e sem calças.",
+		"descricao": "Todas as conversas, sem ação.",
+		"exemplo": "Todas as Dont listen to him. Hes all mouth and no trousers, sem ação.",
+		"exemploTraducao": "Não o escute. Ele é toda boca e sem calças.",
+		"dificuldade": "2"
+	}],
+
+
+	"phrasal_verb": [{
+		"id_phrasal": "1",
+		"titulo": "Give up",
+		"traducaoTitulo": "Desistir.",
+		"descricao": "Desistir",
+		"exemplo": "I want to Give Up.",
+		"exemploTraducao": "Eu quero desistir.",
+		"dificuldade": "2"
+	}],
+
+	"ditado_popular": [{
+		"id_ditado": "1",
+		"titulo": "Put the horses before the cars",
+		"traducaoTitulo": "Coloque os cavalos antes dos carros",
+		"descricao": "Nao se precipitar",
+		"exemplo": "Put the horses before the cars",
+		"exemploTraducao": "Coloque os cavalos antes dos carros",
+		"dificuldade": "3"
+	}],
+
+	"expressao_idiomatica": [{
+		"id_expressao": "1",
+		"titulo": "The best of both worlds",
+		"traducaoTitulo": "O melhor de dois mundos",
+		"descricao": "O melhor de duas oportunidades diferentes ao mesmo tempo",
+		"exemplo": "By working part-time and looking after her kids two days a week she managed to get the best of both worlds",
+		"exemploTraducao": "Trabalhando meio período e cuidando dos filhos duas vezes por semana, ela conseguiu ter o melhor dos dois mundos",
+		"dificuldade": "3"
+	}]
+
+
 }
 
---------------------------
+------------- SEM ARRAY ------------
 
-expressao_idiomatica{
-  "id_expressao":"1",
-  "titulo": "The best of both worlds",
-  "traducaoTitulo": "O melhor de dois mundos",
-  "descricao": "O melhor de duas oportunidades diferentes ao mesmo tempo",
-  "exemplo": "By working part-time and looking after her kids two days a week she managed to get the best of both worlds",
-  "exemploTraducao": "Trabalhando meio período e cuidando dos filhos duas vezes por semana, ela conseguiu ter o melhor dos dois mundos",
-  "dificuldade" : "3"
+{
+	"giria": {
+		"id_giria": "1",
+		"titulo": "All mouth and no trousers",
+		"traducaoTitulo": "Toda a boca e sem calças.",
+		"descricao": "Todas as conversas, sem ação.",
+		"exemplo": "Todas as Dont listen to him. Hes all mouth and no trousers, sem ação.",
+		"exemploTraducao": "Não o escute. Ele é toda boca e sem calças.",
+		"dificuldade": "2"
+	}
+}
+
+----------------------------------
+{
+	"phrasal_verb": {
+		"id_phrasal": "1",
+		"titulo": "Give up",
+		"traducaoTitulo": "Desistir.",
+		"descricao": "Desistir",
+		"exemplo": "I want to Give Up.",
+		"exemploTraducao": "Eu quero desistir.",
+		"dificuldade": "2"
+	}
+}
+
+---------------------------------------
+{
+	"ditado_popular": {
+		"id_ditado": "1",
+		"titulo": "Put the horses before the cars",
+		"traducaoTitulo": "Coloque os cavalos antes dos carros",
+		"descricao": "Nao se precipitar",
+		"exemplo": "Put the horses before the cars",
+		"exemploTraducao": "Coloque os cavalos antes dos carros",
+		"dificuldade": "3"
+	}
+}
+--------------------------
+{
+	"expressao_idiomatica": {
+		"id_expressao": "1",
+		"titulo": "The best of both worlds",
+		"traducaoTitulo": "O melhor de dois mundos",
+		"descricao": "O melhor de duas oportunidades diferentes ao mesmo tempo",
+		"exemplo": "By working part-time and looking after her kids two days a week she managed to get the best of both worlds",
+		"exemploTraducao": "Trabalhando meio período e cuidando dos filhos duas vezes por semana, ela conseguiu ter o melhor dos dois mundos",
+		"dificuldade": "3"
+	}
 }
