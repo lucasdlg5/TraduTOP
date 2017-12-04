@@ -14,8 +14,33 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'phrasal-verbs.html',
 })
 export class PhrasalVerbsPage {
+  phrasalItems: any[];
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.phrasalItems =
+    [
+       {
+  		id_phrasal: "1",
+  		titulo: "Give up",
+  		traducaoTitulo: "Desistir.",
+  		descricao: "Desistir",
+  		exemplo: "I want to Give Up.",
+  		exemploTraducao: "Eu quero desistir.",
+  		dificuldade: "2"
+  	},
+    {
+   id_phrasal: "1",
+   titulo: "Give up",
+   traducaoTitulo: "Desistir.",
+   descricao: "Desistir",
+   exemplo: "I want to Give Up.",
+   exemploTraducao: "Eu quero desistir.",
+   dificuldade: "2"
+ }
+
+
+    ]
+
   }
 
   goPhrasal(): void {

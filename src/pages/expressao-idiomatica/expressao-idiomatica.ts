@@ -14,8 +14,33 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'expressao-idiomatica.html',
 })
 export class ExpressaoIdiomaticaPage {
+  //gerador dos cards
+  expressaoItems: any[];
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.expressaoItems = [
+      {
+        id_ditado: "1",
+        titulo: "Put the horses before the cars",
+        traducaoTitulo: "Coloque os cavalos antes dos carros",
+        descricao: "Nao se precipitar",
+        exemplo: "Put the horses before the cars",
+        exemploTraducao: "Coloque os cavalos antes dos carros",
+        dificuldade: "3"
+      },
+
+      {
+        id_ditado: "1",
+        titulo: "Put the horses before the cars",
+        traducaoTitulo: "Coloque os cavalos antes dos carros",
+        descricao: "Nao se precipitar",
+        exemplo: "Put the horses before the cars",
+        exemploTraducao: "Coloque os cavalos antes dos carros",
+        dificuldade: "3"
+      }
+
+    ]
+
   }
 
   goExpressao(): void {

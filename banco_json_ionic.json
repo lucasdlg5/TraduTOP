@@ -24,29 +24,30 @@
 
 -----------------
 
-<ion-card *ngFor="let post of posts">
+<ion-card *ngFor="let XXXXXX of XXXXXXItems">
   <ion-card-header>
-    {{giria.titulo}}
+  <b>  {{XXXXXX.titulo}}</b>
   </ion-card-header>
   <ion-card-content>
-    {{giria.traducaoTitulo}}
+      {{XXXXXX.traducaoTitulo}}
   </ion-card-content>
   <ion-card-header>
-    Significado
+  <b>  Significado</b>
   </ion-card-header>
   <ion-card-content>
-  {{giria.descricao}}
+  {{XXXXXX.descricao}}
   </ion-card-content>
   <ion-card-header>
-    Exemplo
+    <b>Exemplo</b>
   </ion-card-header>
   <ion-card-content>
-    {{giria.exemplo}}
+    {{XXXXXX.exemplo}}
   </ion-card-content>
   <ion-card-content>
-  {{giria.exemploTrad}}
+  {{XXXXXX.exemploTrad}}
   </ion-card-content>
 </ion-card>
+
 {
 "XXXXXXXX": [{
   "id_XXXXX":"",

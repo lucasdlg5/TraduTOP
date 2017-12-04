@@ -22,4 +22,28 @@
     </ion-item>
   </ion-list>
 
+  <ion-card *ngFor="let phrasal of phrasalsItems">
+    <ion-card-header>
+    <b>  {{phrasal.titulo}}</b>
+    </ion-card-header>
+    <ion-card-content>
+        {{phrasal.traducaoTitulo}}
+    </ion-card-content>
+    <ion-card-header>
+    <b>  Significado</b>
+    </ion-card-header>
+    <ion-card-content>
+    {{phrasal.descricao}}
+    </ion-card-content>
+    <ion-card-header>
+      <b>Exemplo</b>
+    </ion-card-header>
+    <ion-card-content>
+      {{phrasal.exemplo}}
+    </ion-card-content>
+    <ion-card-content>
+    {{phrasal.exemploTrad}}
+    </ion-card-content>
+  </ion-card>
+
 </ion-content>
