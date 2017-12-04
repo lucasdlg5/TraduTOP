@@ -10,6 +10,7 @@ import { HomePage } from '../pages/home/home';
 import { AuthProvider } from '../providers/auth/auth';
 import { EventProvider } from '../providers/event/event';
 import { ProfileProvider } from '../providers/profile/profile';
+//import { GiriasBancoProvider } from '../providers/girias-banco/girias-banco';
 
 @NgModule({
   declarations: [MyApp, HomePage],
@@ -24,6 +25,7 @@ import { ProfileProvider } from '../providers/profile/profile';
     AuthProvider,
     EventProvider,
     ProfileProvider
+  //  GiriasBancoProvider
   ]
 })
 export class AppModule {}

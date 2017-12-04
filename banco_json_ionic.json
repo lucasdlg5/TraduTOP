@@ -1,3 +1,29 @@
+<ion-card *ngFor="let item of listItem">
+  <ion-card-header>
+    {{All mouth and no trousers}}
+  </ion-card-header>
+  <ion-card-content >
+    Toda a boca e sem calças.
+  </ion-card-content>
+  <ion-card-header>
+    Significado
+  </ion-card-header>
+  <ion-card-content>
+    Todas as conversas, sem ação.
+  </ion-card-content>
+  <ion-card-header>
+    Exemplo
+  </ion-card-header>
+  <ion-card-content>
+    Todas as Dont listen to him. Hes all mouth and no trousers, sem ação.
+  </ion-card-content>
+  <ion-card-content>
+    Não o escute. Ele é toda boca e sem calças.
+  </ion-card-content>
+</ion-card>
+
+-----------------
+
 <ion-card *ngFor="let post of posts">
   <ion-card-header>
     {{giria.titulo}}
@@ -32,7 +58,8 @@
   "dificuldade" : ""
 }]
 }
---------------------------------
+
+----------------------
 {
 	"giria": [{
 		"id_giria": "1",
@@ -179,3 +206,36 @@
 		"dificuldade": "3"
 	}
 }
+
+-----------------------TESTE 2---------
+
+[
+  {
+    "title": "The eight Reminders",
+    "category": "objects",
+    "description": "Milarepa lodged at an inn where a merchant, Dhawa Norbu (the Moon jewel), was also staying with a great retinue."
+  },
+  {
+    "title": "What is the mind",
+    "category": "nature",
+    "description": "One of the fundamental views in Buddhism is the principle of dependent origination. This states that all phenomena"
+  },
+  {
+    "title": "The perfect wisdom - The heart Sutra",
+    "category": "people",
+    "description": " Emptiness does not differ from form. Form then is emptiness. Emptiness then is form. Sensation, perception, volition, and consciousness.."
+  }
+]
+
+
+[
+	{
+		"id_giria": "1",
+		"titulo": "All mouth and no trousers",
+		"traducaoTitulo": "Toda a boca e sem calças.",
+		"descricao": "Todas as conversas, sem ação.",
+		"exemplo": "Todas as Dont listen to him. Hes all mouth and no trousers, sem ação.",
+		"exemploTraducao": "Não o escute. Ele é toda boca e sem calças.",
+		"dificuldade": "2"
+	}
+]
