@@ -24,3 +24,6 @@ Todas as checkbox com "-" foram assinaladas para "Check":
 - Faça a instalação de todas as atualizações
  
  Para gerar o APK, utilize o seguinte comando: ionic cordova build android.
+
+## Guias Uteis para problemas
+- Gerar APK - Problemas com o SDK e Lisença: https://stackoverflow.com/questions/40383323/cant-accept-license-agreement-android-sdk-platform-24/40383457#40383457
