@@ -20,7 +20,7 @@ export class ExpressaoIdiomaticaPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.expressaoItems = [
       {
-        id_ditado: "1",
+        id_expressao: "1",
         titulo: "Put the horses before the cars",
         traducaoTitulo: "Coloque os cavalos antes dos carros",
         descricao: "Nao se precipitar",
@@ -30,7 +30,7 @@ export class ExpressaoIdiomaticaPage {
       },
 
       {
-        id_ditado: "1",
+        id_expressao: "1",
         titulo: "Put the horses before the cars",
         traducaoTitulo: "Coloque os cavalos antes dos carros",
         descricao: "Nao se precipitar",
