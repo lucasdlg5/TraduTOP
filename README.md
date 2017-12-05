@@ -11,7 +11,16 @@ Caso queira fazer alterações no Angular, TypeScript e Html, recomenda-se limpa
 ## Gerar APK
 Caso faça modificações e queira gerar APK  para Android, certifique-se de que tenha instalado o Android Studio: https://developer.android.com/studio/install.html?hl=pt-br
 Certifique-se de que todas as atualizações estejam instaladas adtravés do SDK Manager: Abra o Android Studio -> Configure -> SDK Manager ->  Abas: Appareance & Behavior -> System Settings -> Android SDK. Dentro selecione a aba SDK Tools
-Todas as checkbox com "-" foram assinaladas para "Check": Android SKD Build-Tools, Android Emulator, Android SKD Platform-Tools, Android  SDK Tools, Google Play APK Expansion Library, Instant Apps Development SDK, Intel x86 Emulator Accelerator, Support Repository.
- - Faça a instalação de todas as atualizações
+Todas as checkbox com "-" foram assinaladas para "Check": 
+- Android SKD Build-Tools
+- Android Emulator
+- Android SKD Platform-Tools
+- Android  SDK Tools
+- Google Play APK Expansion Library
+- Instant Apps Development SDK
+- Intel x86 Emulator Accelerator
+- Support Repository.
+
+- Faça a instalação de todas as atualizações
  
  Para gerar o APK, utilize o seguinte comando: ionic cordova build android.
