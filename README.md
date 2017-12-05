@@ -1,9 +1,9 @@
 ## Utilizando o projeto no ionic em novo computador
-1 - Baixe ou clone este projeto
-2 - Navegue até dentro da pasta pelo terminal (CMD)
-3 - Certifique-se de tenha instalado o NodeJS mais atualizado do site oficial: https://nodejs.org/en/download/
-4 - Faça o download das dependencias através do comando: npm install *cerca de 160MB*. (ele captura as dependencias do projeto que utilizam as bibliotecas. Estas mesmas não acompanham no projeto por se tratar de arquivos grandes)
-5 - Para rodar o aplicativo, navegue dentro da pasta do projeto através do console, e execute o seguinte comando: ionic serve
+- 1 - Baixe ou clone este projeto
+- 2 - Navegue até dentro da pasta pelo terminal (CMD)
+- 3 - Certifique-se de tenha instalado o NodeJS mais atualizado do site oficial: https://nodejs.org/en/download/
+- 4 - Faça o download das dependencias através do comando: npm install *cerca de 160MB*. (ele captura as dependencias do projeto que utilizam as bibliotecas. Estas mesmas não acompanham no projeto por se tratar de arquivos grandes)
+- 5 - Para rodar o aplicativo, navegue dentro da pasta do projeto através do console, e execute o seguinte comando: ionic serve
 
 ## Obs.: Constantemente armazena cache
 Caso queira fazer alterações no Angular, TypeScript e Html, recomenda-se limpar o cache, ou simplesmente reiniciar o servidor
