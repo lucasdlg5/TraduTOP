@@ -22,5 +22,11 @@ Todas as checkbox com "-" foram assinaladas para "Check":
 - Support Repository.
 
 - Faça a instalação de todas as atualizações
- 
- Para gerar o APK, utilize o seguinte comando: ionic cordova build android.
+
+- Após atualizar as SDKs, adicione o caminho da pasta nos PATH de seu computador, localizado em: Configurações do Windows -> Sistema -> Sobre -> Em Configurações Relacionadas: Informações do Sistema -> Configurações avançadas do sistema -> Aba: Avançado -> Botão: Variaveis do Ambiente -> Em: Variaveis do Sistema adicione uma nova variavel clicando onde se localiza PATH e EDITAR -> Na nova janela clique em Novo e adicione o caminho até a PASTA onde se localiza os SDK por exemplo: "C:\Users\LUCASDOMINGOSLEAOGOM\AppData\Local\Android\Sdk"
+
+Para gerar o APK, utilize o seguinte comando: ionic cordova build android.
+
+## Guias Uteis para problemas
+- Gerar APK - Problemas com o SDK e Lisença: https://stackoverflow.com/questions/40383323/cant-accept-license-agreement-android-sdk-platform-24/40383457#40383457
+ - Converter tabelas Excel para JSON: http://www.convertcsv.com/json-to-csv.htm
