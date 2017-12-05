@@ -27,3 +27,4 @@ Todas as checkbox com "-" foram assinaladas para "Check":
 
 ## Guias Uteis para problemas
 - Gerar APK - Problemas com o SDK e Lisença: https://stackoverflow.com/questions/40383323/cant-accept-license-agreement-android-sdk-platform-24/40383457#40383457
+ - Converter tabelas Excel para JSON: http://www.convertcsv.com/json-to-csv.htm
