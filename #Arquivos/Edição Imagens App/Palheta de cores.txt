@@ -1,0 +1,21 @@
+https://www.matetranslate.com/
+
+Verde Claro
+RGB 95 247 156
+HEX 5FF79C
+
+Azul Claro
+RGB 35 217 219
+HEX 23D9DB
+
+Azul Esverdeado
+RGB 50 224 203
+HEX 32E0CB
+
+Preto
+RGB 1 8 0
+HEX 010800
+
+Branco
+RGB 251 248 250
+HEX FBF8FA

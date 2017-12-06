@@ -1,0 +1,42 @@
+﻿http://blog.uolingles.com.br/girias-que-vao-ampliar-seu-vocabulario-em-ingles/
+https://www.englishexperts.com.br/expressoes-idiomaticas-verbos-frasais-e-proverbios-qual-a-diferenca/
+http://www.inglesnosupermercado.com.br/as-faces-do-ingles-phrasal-verbs-e-expressoes-idiomaticas/
+https://www.englishexperts.com.br/forum/a-giria-pode-ser-considerada-uma-expressao-idiomatica-t11330.html
+https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/a-diferenca-entre-proverbio-e-expressao-idiomatica/32210
+http://www.fluentu.com/blog/english/learn-english-pronunciation/
+http://www.fluentu.com/blog/english/how-to-learn-english-faster/
+
+Provérbios (English Phrases and Sayings)
+http://www.phrases.org.uk/meanings/phrases-and-sayings-list.html
+http://www.knowyourphrase.com/
+
+Phrasal verbs
+http://inglesparaleigos.com/lista-completa-de-phrasal-verbs/
+
+Slangs (Girias)
+https://www.smartling.com/blog/50-british-slang-words-phrases-you-need-to-know/
+https://www.smartling.com/blog/40-american-slang-words-and-phrases-you-need-to-know/
+http://www.sheknows.com/living/articles/1026523/100-words-from-urban-dictionary-that-changed-the-world
+http://www.manythings.org/slang/
+
+Idiom (Expressao Idiomatica)
+http://idioms.thefreedictionary.com/list
+http://www.smart-words.org/quotes-sayings/idioms-meaning.html
+http://www.learn-english-today.com/idioms/idioms_alphalistsA-Z.html
+https://www.englishclub.com/ref/Idioms/
+
+
+LIVROS
+https://www.englishclub.com/store/product/1000-phrasal-verbs-in-context/
+
+
+BANCO DE DADOS APLICATIVO
+http://sqlfiddle.com/#!9/e7e296/1
+
+
+FIREBASE + IONIC
+https://medium.com/@adsonrocha/como-integrar-um-projeto-ionic-2-com-o-firebase-ab228d84f445
+https://medium.com/@eduoshaun/7-best-resources-to-learn-ionic-framework-7b286ce5774
+https://medium.com/@adsonrocha/como-criar-um-crud-com-ionic-2-firebase-ae715e8b64bb
+https://github.com/angular/angularfire2/blob/master/docs/1-install-and-setup.md
+https://github.com/angular/angularfire2
